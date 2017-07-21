@@ -1,0 +1,22 @@
+{
+  "name": "rpi-node-camera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.ibm.com/Shea-Hunter-Belsky/rpi-node-camera.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "raspicam": "^0.2.14",
+    "request": "^2.81.0"
+  }
+}
